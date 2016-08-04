@@ -1,0 +1,20 @@
+<Template name="ask">
+  <div class="modal-backdrop"></div>
+  <div class="splash">
+    <h3>{{message}}</h3>
+    {{#if isAsk}}
+    <a class="btn btn-small btn-danger Xok">Ok</a>
+    {{/if}}
+    <a class="btn btn-small btn-danger Xcancel">Close</a>
+  </div>
+</Template>
+
+
+<template name="confirmFallback">
+  {{#modal}}
+    <h2> {{message}} </h2>
+    {{#each buttons}}
+    <a class="btn btn-primary reserve">{{label}}</a>
+    {{/each}}
+  {{/modal}}
+</template>
