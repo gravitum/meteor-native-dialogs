@@ -17,7 +17,7 @@ Cordova.depends({
 Package.onUse(function(api) {
   api.versionsFrom('METEOR@1.0');
   api.use('templating', 'client');
-  api.use('gravitum:popup-views', 'client');
+  api.use('gravitum:popup-views@0.0.1', 'client');
   api.export("Dialogs");
   api.addFiles('fallbacks.html', 'client');
   api.addFiles('dialogs.js', 'client');
