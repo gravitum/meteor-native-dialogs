@@ -2,7 +2,7 @@ Package.describe({
   name: 'gravitum:native-dialogs',
   version: '0.1.1',
   // Brief, one-line summary of the package.
-  summary: '',
+  summary: 'Android/IOS native dialogs with with simple API. Fallback to html in brrowser.',
   // URL to the Git repository containing the source code for this package.
   git: 'https://github.com/gravitum/meteor-native-dialogs',
   // By default, Meteor will default to using README.md for documentation.
