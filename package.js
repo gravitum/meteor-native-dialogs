@@ -28,5 +28,4 @@ Package.onTest(function(api) {
   api.use('ecmascript');
   api.use('tinytest');
   api.use('gravitum:popup-views');
-  api.addFiles('popups-tests.js');
 });
